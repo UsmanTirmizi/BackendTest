@@ -10,7 +10,7 @@ dotenv.config();
 
 //DB connection
 mongoose
-    .connect("mongodb+srv://Web-Crud:Meraghar80.@cluster0.grfiasw.mongodb.net/")
+    .connect(process.env.MONGO_URL)
     .then(() => console.log("Dbconnection sucessfull"))
     .catch((err) => {
         console.log(err);

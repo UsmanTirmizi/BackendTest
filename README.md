@@ -1,6 +1,6 @@
 Following are the steps to Run the code:
 
-1. Write "npm init" so that all the nodemodules are installed
+1. Clone the git repository
 2. Then write "npm start" to start the script and to begin the program.
 3. then test the apis on postman.
 
